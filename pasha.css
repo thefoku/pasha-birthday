@@ -1,0 +1,110 @@
+html, body{
+font-family:'Heppy Monkey', cursive;
+display:block;
+background: linear-gradient(#a78eff, #854fa1);
+color:white;
+text-shadow:2px 1px black;
+text-align:center;
+}
+#img-pasha{
+width: 400px;
+height: 400px;
+overflow: hidden;
+border-radius: 100%;
+border:8px solid #EFB0C9;
+margin-bottom:10px;
+}
+#bday-age, #bday-date {
+background:#EFB0C9;
+margin:10px auto;
+padding:0px 10px;
+border-radius:5px;
+}
+.header{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+.gift-section{
+margin-top:50px;
+}
+.gift-title{
+margin:5px;
+}
+.gift-hint{
+margin:10px;
+}
+
+
+.gift-img{
+border:8px solid #EFB0C9;
+width:650px;
+height:650px;
+box-sizing:border-box;
+border-radius:10px;
+background-image:url("images/best-21.jpg");
+background-repeat:no-repeat;
+justify-content:center;
+display:block;
+margin:10px auto;
+background-size:cover;
+}
+#gift-img-happy:hover, #gift-img-happy:active{
+background-image:url('images/crabcore.gif');
+justify-content:center;
+margin:auto;
+background-size:cover;
+}
+#gift-img-hot:hover, #gift-img-hot:active{
+background-image:url('images/hot.gif');
+justify-content:center;
+margin:auto;
+background-size:cover;
+background-position:center center;
+}
+#gift-img-genius:hover, #gift-img-genius:active{
+background-image:url('images/genius.gif');
+justify-content:center;
+margin:auto;
+background-size:cover;
+background-position:center center;
+}
+#gift-img-badass:hover, #gift-img-badass:active{
+background-image:url('images/aliceinchains.gif');
+justify-content:center;
+margin:auto;
+background-size:cover;
+background-position:center center;
+}
+
+#gift-img-cheers{
+height:300px;
+background-size:cover;
+background-position:center top;
+}
+
+#gift-img-cheers:hover, #gift-img-cheers:active{
+background-image:url('images/cheers.gif');
+justify-content:center;
+margin:auto;
+background-size:cover;
+background-position:center center;
+}
+#course-p{
+width:400px;
+ word-wrap: break-word;
+ margin:10px auto;
+ text-align:center;
+ font-size:18px;
+ font-style:italic;
+ margin:40px auto 20px;
+}
+
+#course-p-link {
+text-decoration:underline;
+color:white;
+}
+#course-p-link:hover, #course-p-link:active {
+color:purple;
+}
