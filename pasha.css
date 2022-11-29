@@ -6,6 +6,8 @@ color:white;
 text-shadow:2px 1px black;
 text-align:center;
 }
+
+h1 {font-size:42px;}
 #img-pasha{
 width: 400px;
 height: 400px;
@@ -14,12 +16,20 @@ border-radius: 100%;
 border:8px solid #EFB0C9;
 margin-bottom:10px;
 }
-#bday-age, #bday-date {
+#bday-age{
 background:#EFB0C9;
 margin:10px auto;
 padding:0px 10px;
 border-radius:5px;
+font-size:32px;
 }
+#bday-date {
+    background:#EFB0C9;
+    margin:10px auto;
+    padding:0px 10px;
+    border-radius:5px;
+    font-size:28px;
+    }
 .header{
 display:flex;
 flex-direction:column;
@@ -108,3 +118,31 @@ color:white;
 #course-p-link:hover, #course-p-link:active {
 color:purple;
 }
+
+@media (min-device-width: 200px) and (max-device-width: 800px)  { 
+    h1 {font-size:40px; margin:10px}
+    #img-pasha {
+        width: 500px !important; 
+        height: 500px!important ;}
+       #bday-age {font-size:52px;}
+       #bday-date {font-size:38px;}
+       html, body{
+        font-family:'Heppy Monkey', cursive;
+        display:block;
+        background: linear-gradient(#a78eff, #854fa1);
+        color:white;
+        text-shadow:2px 1px black;
+        text-align:center;
+        
+        }
+        .gift-section{
+            margin-top:50px;
+            box-sizing: border-box;
+        }
+        .gift-img {
+            width:500px;
+            height:500px;
+        }
+
+
+    }
