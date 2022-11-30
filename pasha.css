@@ -164,6 +164,8 @@ color:white;
 color:purple;
 }
 
+.gift-title-long {padding:0px 10px;}
+
 @media (min-device-width: 200px) and (max-device-width: 800px)  { 
     h1 {font-size:40px; margin:10px}
     #img-pasha {
