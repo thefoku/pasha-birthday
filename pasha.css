@@ -52,11 +52,12 @@ margin:5px;
 margin:10px;
 }
 
-#gift-video{
-width:580px;
-height:335px;
-
+#gift-video {
+    width: 577px;
+    height: 331px;
 }
+
+
 .gift-img{
 border:8px solid #EFB0C9;
 width:650px;
