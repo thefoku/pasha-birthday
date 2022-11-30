@@ -78,7 +78,7 @@ background-size:cover;
 background-position:center center;
 }
 #gift-img-genius:hover, #gift-img-genius:active{
-background-image:url('images/genius.gif');
+background-image:url('images/hideo.jpg');
 justify-content:center;
 margin:auto;
 background-size:cover;
@@ -90,6 +90,41 @@ justify-content:center;
 margin:auto;
 background-size:cover;
 background-position:center center;
+}
+#gift-img-gral:hover, #gift-img-gral:active{
+    background-image:url('images/grohl.jpg');
+    justify-content:end;
+    margin:auto;
+    background-size:cover;
+    background-position:center center;
+    }
+#gift-img-baby:hover, #gift-img-baby:active{
+        background-image:url('images/babydrummer3.jpg');
+        justify-content:end;
+        margin:auto;
+        background-size:cover;
+        background-position:center center;
+}
+#gift-img-happydrummer:hover, #gift-img-happydrummer:active{
+    background-image:url('images/happydrummer.jpg');
+    justify-content:end;
+    margin:auto;
+    background-size:cover;
+    background-position:center center;
+}
+#gift-img-scene:hover, #gift-img-scene:active{
+    background-image:url('images/scene.jpg');
+    justify-content:end;
+    margin:auto;
+    background-size:cover;
+    background-position:center center;
+}
+#gift-img-bed:hover, #gift-img-bed:active{
+    background-image:url('images/bed.jpg');
+    justify-content:end;
+    margin:auto;
+    background-size:cover;
+    background-position:center center;
 }
 
 #gift-img-cheers{
