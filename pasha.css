@@ -1,6 +1,7 @@
 @font-face {
     font-family: myFont;
     src: url(793-font.otf);
+    src: url('793-font.otf') format('truetype');
   }
 
 html, body{
